@@ -27,4 +27,8 @@ export const listItems = [
     key: "infoWindow",
     value: "Information Window",
   },
+  {
+    key: "zoomLevel",
+    value: "Zoom Level",
+  },
 ];

@@ -7,7 +7,6 @@ import {
 } from "./Sidebar.styled";
 
 export const Sidebar = ({ mapView, handleMapViewChnage }) => {
-  console.log(mapView);
   return (
     <SidebarContainer>
       <SidebarHeader>Google Maps with React</SidebarHeader>

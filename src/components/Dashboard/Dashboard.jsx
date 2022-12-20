@@ -7,6 +7,7 @@ import DefaultMarker from "../DefaultMarker";
 import DynamicMapView from "../DynamicMapView";
 import InformationWindow from "../InformationWindow";
 import Sidebar from "../Sidebar";
+import ZoomLevel from "../ZoomLevel";
 import {
   DashboardContainer,
   MapSection,
@@ -33,6 +34,8 @@ export const Dashboard = () => {
         return <DynamicMapView />;
       case "infoWindow":
         return <InformationWindow />;
+      case "zoomLevel":
+        return <ZoomLevel />;
       default:
         return null;
     }
