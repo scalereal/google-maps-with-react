@@ -31,4 +31,8 @@ export const listItems = [
     key: "zoomLevel",
     value: "Zoom Level",
   },
+  {
+    key: "drawingTool",
+    value: "Drawing Tool",
+  },
 ];

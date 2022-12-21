@@ -4,6 +4,7 @@ import CustomMarker1 from "../CustomMarker1";
 import CustomMarker3 from "../CustomMarker3";
 import DefaultMapView from "../DefaultMapView";
 import DefaultMarker from "../DefaultMarker";
+import DrawingTool from "../DrawingTool";
 import DynamicMapView from "../DynamicMapView";
 import InformationWindow from "../InformationWindow";
 import Sidebar from "../Sidebar";
@@ -36,6 +37,8 @@ export const Dashboard = () => {
         return <InformationWindow />;
       case "zoomLevel":
         return <ZoomLevel />;
+      case "drawingTool":
+        return <DrawingTool />;
       default:
         return null;
     }
