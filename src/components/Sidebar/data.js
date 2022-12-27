@@ -35,4 +35,8 @@ export const listItems = [
     key: "drawingTool",
     value: "Drawing Tool",
   },
+  {
+    key: "geoFence",
+    value: "Geofencing",
+  },
 ];

@@ -6,6 +6,7 @@ import DefaultMapView from "../DefaultMapView";
 import DefaultMarker from "../DefaultMarker";
 import DrawingTool from "../DrawingTool";
 import DynamicMapView from "../DynamicMapView";
+import { Geofence } from "../Geofence/Geofence";
 import InformationWindow from "../InformationWindow";
 import Sidebar from "../Sidebar";
 import ZoomLevel from "../ZoomLevel";
@@ -39,6 +40,8 @@ export const Dashboard = () => {
         return <ZoomLevel />;
       case "drawingTool":
         return <DrawingTool />;
+      case "geoFence":
+        return <Geofence />;
       default:
         return null;
     }
