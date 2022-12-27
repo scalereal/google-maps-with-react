@@ -39,4 +39,8 @@ export const listItems = [
     key: "geoFence",
     value: "Geofencing",
   },
+  {
+    key: "customMapStyles",
+    value: "Custom Map Styles",
+  },
 ];

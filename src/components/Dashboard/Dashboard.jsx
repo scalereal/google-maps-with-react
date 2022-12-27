@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CustomMarker2 from "../Custom Marker2";
+import CustomMapStyles from "../CustomMapStyles";
 import CustomMarker1 from "../CustomMarker1";
 import CustomMarker3 from "../CustomMarker3";
 import DefaultMapView from "../DefaultMapView";
@@ -42,6 +43,8 @@ export const Dashboard = () => {
         return <DrawingTool />;
       case "geoFence":
         return <Geofence />;
+      case "customMapStyles":
+        return <CustomMapStyles />;
       default:
         return null;
     }
